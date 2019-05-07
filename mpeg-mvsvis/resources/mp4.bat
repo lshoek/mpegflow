@@ -1,0 +1,1 @@
+ffmpeg -r 24 -f image2 -s 1280x720 -i "output/%%06d.png" -vcodec libx264 -crf 15 -pix_fmt yuv420p mp4/out.mp4
